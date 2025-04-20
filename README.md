@@ -1,4 +1,5 @@
 AIM :
+
 To analyze the Fuel Consumption dataset and build linear regression models to study the relationship between different features (like CYLINDERS, ENGINESIZE, FUELCONSUMPTION_COMB) and CO2 emissions, and evaluate models across different train-test splits.
 
 ```
@@ -7,10 +8,12 @@ Register Number : 212224040269
 ```
 
 Equipments Required:
+
 1.Hardware – PCs
 2.Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ALGORITHM:
+
 1.Import necessary libraries like pandas, matplotlib, and sklearn.
 
 2.Load the dataset (FuelConsumption.csv) and preview the data.
@@ -34,6 +37,7 @@ ALGORITHM:
 6.Perform model training on different train-test ratios (80/20, 70/30, 60/40) and record accuracy for each.
 
 PROGRAM / OUTPUT:
+
 1.Create a scatter plot between cylinder vs Co2Emission (green color)
 ```
 import pandas as pd
@@ -126,4 +130,5 @@ for r in ratios:
 ![image](https://github.com/user-attachments/assets/06022336-05d6-4404-9669-81fe18931e39)
 
 RESULT:
+
 Thus, the program to create scatter plots and implement Linear Regression models to predict CO2 Emissions based on CYLINDERS and FUELCONSUMPTION_COMB was successfully written, executed, and evaluated for accuracy across different train-test splits.
