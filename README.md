@@ -16,6 +16,7 @@ ALGORITHM:
 2.Load the dataset (FuelConsumption.csv) and preview the data.
 
 3.Plot scatter plots for:
+
   -Cylinders vs CO2 Emissions (green)
   
   -Cylinders vs CO2 Emissions & Engine Size vs CO2 Emissions
@@ -23,6 +24,7 @@ ALGORITHM:
   -Cylinders, Engine Size, Fuel Consumption vs CO2 Emissions
   
 4.Train a Linear Regression model using:
+
   -Independent variable: CYLINDERS, Dependent: CO2EMISSIONS
   
   -Independent variable: FUELCONSUMPTION_COMB, Dependent: CO2EMISSIONS
